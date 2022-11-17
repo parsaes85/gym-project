@@ -1,6 +1,6 @@
 @font-face {
     font-family: yekan;
-    src: url(./fonts/iranyekanwebbold.ttf);
+    src: url(../fonts/iranyekanwebbold.ttf);
 }
 @keyframes anim {
     0%{
@@ -84,7 +84,7 @@ body{
 }
 header{
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(./images/banner.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@ header{
     width: 300px;
 }
 .card-1, .card-2, .card-3{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(./images/membership.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/membership.jpg);
     background-size: cover;
     box-shadow: 7px 8px 50px #555;
     max-width: 370px;
@@ -231,7 +231,7 @@ header{
 }
 
 .contact{
-    background:linear-gradient(105deg,rgba(21,31,32,0.8) 0%,rgba(21,31,32,0.9) 50%,transparent 50%), url(./images/contact.jpg);
+    background:linear-gradient(105deg,rgba(21,31,32,0.8) 0%,rgba(21,31,32,0.9) 50%,transparent 50%), url(../images/contact.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -283,7 +283,7 @@ header{
 }
 @media screen and (max-width:992px) {
     .contact{
-        background:linear-gradient(rgba(21,31,32,0.7) ,rgba(21,31,32,0.9)), url(./images/contact.jpg);
+        background:linear-gradient(rgba(21,31,32,0.7) ,rgba(21,31,32,0.9)), url(../images/contact.jpg);
         background-size: cover;
         background-position: center;
     }
